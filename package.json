@@ -1,0 +1,33 @@
+{
+  "name": "TodoApp",
+  "version": "0.0.1",
+  "description": "Suggesting tech since 2015",
+  "main": "js/todoAppFirebaseImplicit.js",
+  "private": true,
+  "scripts": {
+    "test": "node server/test | tap-spec",
+    "prestart": "npm install",
+    "postinstall": "bower install && gulp bake",
+    "start": "node clientserver.js"
+  },
+  "engines": {
+    "node": "4.2.1",
+    "npm": "2.14.x"
+  },
+  "repository": {},
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "firebase": "^2.4.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.5.3",
+    "immutable": "^3.7.6",
+    "react": "^0.14.7",
+    "react-immutable-render-mixin": "^0.9.5",
+    "reactfire": "^0.6.0",
+    "reactify": "^1.1.1",
+    "tape": "^4.5.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
