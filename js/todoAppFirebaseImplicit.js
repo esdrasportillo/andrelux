@@ -1,4 +1,7 @@
-var actions = require('./fireapi.js');
+var actions         = require('./fireapi.js');
+var React           = require('react');
+var ReactFireMixin  = require('reactfire');
+var ReactDOM        = require('react-dom');
 
 var TodoList3 = React.createClass({
   render: function() {
@@ -64,3 +67,5 @@ var TodoApp3 = React.createClass({
 });
 
 ReactDOM.render(<TodoApp3 />, document.getElementById('todoApp3'));
+
+
