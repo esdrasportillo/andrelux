@@ -5,10 +5,7 @@
   "main": "js/todoAppFirebaseImplicit.js",
   "private": true,
   "scripts": {
-    "test": "node server/test | tap-spec",
-    "prestart": "npm install",
-    "postinstall": "bower install && gulp bake",
-    "start": "node clientserver.js"
+    "test": "node test/index.js"
   },
   "engines": {
     "node": "4.2.1",
